@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
-import onnxruntime as ort
+import onnxruntime_lite as ort
+
 from skimage.metrics import peak_signal_noise_ratio as psnr, structural_similarity as ssim
 from PIL import Image
 import cv2
@@ -102,3 +103,4 @@ st.markdown("""
 **Developed by:** Swetha S  
 **Tech Stack:** Python, ONNX Runtime, Streamlit  
 """)
+
