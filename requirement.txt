@@ -1,6 +1,6 @@
 streamlit
-opencv-python
+onnxruntime
+opencv-python-headless
 scikit-image
 numpy
 Pillow
-tensorflow==2.12.0
